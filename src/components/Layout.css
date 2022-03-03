@@ -1,0 +1,20 @@
+.container {
+  padding: 1.5rem 3rem;
+}
+
+.content {
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 3rem;
+}
+
+.header {
+  font-size: 32px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+}

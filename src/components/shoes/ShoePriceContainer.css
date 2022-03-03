@@ -1,0 +1,10 @@
+.showPriceContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  row-gap: 2rem;
+}
+
+.calculatedPrice {
+  font-size: 0.8em;
+}

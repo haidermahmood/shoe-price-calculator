@@ -1,0 +1,35 @@
+.shoeItemContainer {
+  padding: 24px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  align-items: center;
+  width: 250px;
+  border: solid 2px lightskyblue;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.selected {
+  background: lightskyblue;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  height: 32px;
+  text-align: center;
+}
+
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1ca5b9;
+}

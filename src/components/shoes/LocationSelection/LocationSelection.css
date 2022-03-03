@@ -1,0 +1,28 @@
+.locationItemContainer {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: center;
+}
+
+.locationItem {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  align-items: center;
+  border: solid 2px lightskyblue;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.selected {
+  background: lightskyblue;
+}
+
+.locationContainer {
+  margin: auto;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
